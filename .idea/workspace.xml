@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="" />
+    <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/FindKthToTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/reOrderArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newCode/cn/com/self/JumpFloorII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/newCode/cn/com/self/JumpFloorII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/self/ListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/ListFromTailToHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/self/RectCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/RectCover.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +53,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1189562781">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1314" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1314" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/JumpFloorII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/RectCover.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/FindKthToTail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="260">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,6 +101,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,6 +118,11 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/JumpFloorII.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/RectCover.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/Power.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/reOrderArray.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/FindKthToTail.java" />
       </list>
     </option>
   </component>
@@ -94,33 +133,32 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-29" />
-    <option name="y" value="-29" />
-    <option name="width" value="1959" />
-    <option name="height" value="1073" />
+    <option name="x" value="-30" />
+    <option name="y" value="-30" />
+    <option name="width" value="1960" />
+    <option name="height" value="1074" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="newCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="newCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="self" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -128,13 +166,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554966482575" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weekly" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554986877847" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -151,20 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumpFloorII">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.Fibonacci" />
-      <module name="newCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.self.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.reOrderArray">
     <configuration name="JumpFloor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.JumpFloor" />
       <module name="newCode" />
@@ -191,8 +217,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumberInRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.MinNumberInRotateArray" />
+    <configuration name="NumberOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.NumberOf1" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -204,8 +230,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.StackFIFO" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.Power" />
+      <module name="newCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reOrderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.reOrderArray" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -218,19 +257,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StackFIFO" />
-      <item itemvalue="Application.MinNumberInRotateArray" />
-      <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.JumpFloor" />
       <item itemvalue="Application.JumpFloorII" />
+      <item itemvalue="Application.NumberOf1" />
+      <item itemvalue="Application.Power" />
+      <item itemvalue="Application.reOrderArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reOrderArray" />
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.NumberOf1" />
         <item itemvalue="Application.JumpFloorII" />
         <item itemvalue="Application.JumpFloor" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.MinNumberInRotateArray" />
-        <item itemvalue="Application.StackFIFO" />
       </list>
     </recent_temporary>
   </component>
@@ -248,11 +287,12 @@
       <workItem from="1554179353768" duration="15626000" />
       <workItem from="1554701402943" duration="5199000" />
       <workItem from="1554966309639" duration="453000" />
+      <workItem from="1554983022377" duration="3829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27989000" />
+    <option name="totallyTimeSpent" value="31818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,10 +304,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16063765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1632653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3358876" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33466136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,27 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/StackFIFO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#682#691#0" expanded="true" />
-            <element signature="e#732#741#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,10 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Fibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/JumpFloorII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="156">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -391,17 +414,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/JumpFloorII.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/RectCover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="182">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6472">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1942">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/reOrderArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
