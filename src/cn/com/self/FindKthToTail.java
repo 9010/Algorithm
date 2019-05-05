@@ -7,8 +7,5 @@ package cn.com.self;
  */
 public class FindKthToTail {
 
-    public ListNode findK(ListNode head,int k) {
-
-    }
 }
 
