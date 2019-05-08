@@ -10,7 +10,7 @@ import java.util.List;
  * such that a + b + c = 0?
  * Find all unique triplets in the array which gives the sum of zero.
  *
- * 现将数组排序，然后对于数组中任意一个数字，找有没有两个数加起来等于它的负数，是则加入结构，注意有可能是多个
+ * 现将数组排序，然后对于数组中任意一个数字，找有没有两个数加起来等于它的负数，是则加入结果，注意有可能是多个
  * 对于重复：排序之后，先看这个数字与他之前的数字是否相同，相同则跳过
  *
  * 2019.5.8 zx
