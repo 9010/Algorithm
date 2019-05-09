@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/Sum3Closest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/RemoveNthNodeFromEndofList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/Sum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/self/Sum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/Sum3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Algorithm$RemoveNthNodeFromEndofList.ic" NAME="RemoveNthNodeFromEndofList Coverage Results" MODIFIED="1557380470279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.com.self.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Algorithm$Sum3Closest.ic" NAME="Sum3Closest Coverage Results" MODIFIED="1557286407847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cn.com.self.*</FILTER>
     </SUITE>
@@ -23,7 +26,7 @@
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="235" />
+    <option name="myElementSize" value="256" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1279113076">
@@ -89,69 +92,47 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6398" />
+          <entry key="java" value="8061" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6398" />
+          <entry key="JAVA" value="8061" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="32" />
+          <entry key="java" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum3Closest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="32" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -207,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/Sum3.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/Sum3Closest.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/Sum4.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/RemoveNthNodeFromEndofList.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java" />
       </list>
     </option>
   </component>
@@ -217,10 +201,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
-    <option name="y" value="-38" />
-    <option name="width" value="1968" />
-    <option name="height" value="1082" />
+    <option name="x" value="-41" />
+    <option name="y" value="-41" />
+    <option name="width" value="1970" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -228,6 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,14 +236,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557296538454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557384719427" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetterCombinationsOfPhoneNumber">
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="LetterCombinationsOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.LetterCombinationsOfPhoneNumber" />
       <module name="newCode" />
@@ -289,34 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.LongestCommonPrefix" />
-      <module name="newCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.self.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.RomanToInteger" />
-      <module name="newCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.self.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.Sum3" />
+    <configuration name="RemoveNthNodeFromEndofList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.RemoveNthNodeFromEndofList" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -341,20 +299,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.Sum4" />
+      <module name="newCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.ValidParentheses" />
+      <module name="newCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RomanToInteger" />
-      <item itemvalue="Application.LongestCommonPrefix" />
-      <item itemvalue="Application.Sum3" />
       <item itemvalue="Application.Sum3Closest" />
       <item itemvalue="Application.LetterCombinationsOfPhoneNumber" />
+      <item itemvalue="Application.Sum4" />
+      <item itemvalue="Application.RemoveNthNodeFromEndofList" />
+      <item itemvalue="Application.ValidParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.RemoveNthNodeFromEndofList" />
+        <item itemvalue="Application.Sum4" />
         <item itemvalue="Application.LetterCombinationsOfPhoneNumber" />
         <item itemvalue="Application.Sum3Closest" />
-        <item itemvalue="Application.Sum3" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.RomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +363,9 @@
       <workItem from="1557069514860" duration="1757000" />
       <workItem from="1557106013178" duration="11345000" />
       <workItem from="1557205740341" duration="7762000" />
-      <workItem from="1557280750346" duration="8912000" />
+      <workItem from="1557280750346" duration="10166000" />
+      <workItem from="1557301121556" duration="219000" />
+      <workItem from="1557378262586" duration="5703000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -430,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557284170825</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new problem">
+      <created>1557296554075</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557296554075</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67605000" />
+    <option name="totallyTimeSpent" value="74781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +442,7 @@
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19558553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20049049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33375958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33375958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33248082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +461,6 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286445" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.329859" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,6 +470,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329859" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,6 +496,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tmp.get(1)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -566,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="617" column="29" selection-start-line="617" selection-start-column="29" selection-end-line="617" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -699,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/MinimumDepthOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
@@ -724,15 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,10 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum3.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="517">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -783,18 +758,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum3Closest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="-132">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="276">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Sum4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/RemoveNthNodeFromEndofList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
