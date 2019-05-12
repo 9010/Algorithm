@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/ReverseNodesinkGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/SwapNodesinPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -90,58 +91,62 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="9716" />
+          <entry key="java" value="10809" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9716" />
+          <entry key="JAVA" value="10809" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="42" />
+          <entry key="java" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/ReverseNodesinkGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="336">
+              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/GenerateParentheses.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/SwapNodesinPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="456">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,6 +210,8 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/SwapNodesinPairs.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/ReverseNodesinkGroup.java" />
       </list>
     </option>
   </component>
@@ -215,10 +222,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-43" />
-    <option name="y" value="-43" />
-    <option name="width" value="1972" />
-    <option name="height" value="1087" />
+    <option name="x" value="-44" />
+    <option name="y" value="-44" />
+    <option name="width" value="1974" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -227,7 +234,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,12 +256,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557640196836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557648342801" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenerateParentheses">
+  <component name="RunManager" selected="Application.ReverseNodesinkGroup">
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.GenerateParentheses" />
       <module name="newCode" />
@@ -300,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEndofList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.RemoveNthNodeFromEndofList" />
+    <configuration name="ReverseNodesinkGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.ReverseNodesinkGroup" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -313,8 +320,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.Sum4" />
+    <configuration name="SwapNodesinPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.SwapNodesinPairs" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -340,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Sum4" />
-      <item itemvalue="Application.RemoveNthNodeFromEndofList" />
       <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.MergeTwoSortedLists" />
       <item itemvalue="Application.GenerateParentheses" />
+      <item itemvalue="Application.SwapNodesinPairs" />
+      <item itemvalue="Application.ReverseNodesinkGroup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseNodesinkGroup" />
+        <item itemvalue="Application.SwapNodesinPairs" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.RemoveNthNodeFromEndofList" />
-        <item itemvalue="Application.Sum4" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +388,8 @@
       <workItem from="1557301121556" duration="219000" />
       <workItem from="1557378262586" duration="5735000" />
       <workItem from="1557462029709" duration="3268000" />
-      <workItem from="1557637960102" duration="1673000" />
+      <workItem from="1557637960102" duration="1739000" />
+      <workItem from="1557642733537" duration="4409000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -453,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557466092629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new problem">
+      <created>1557640226908</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557640226908</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79754000" />
+    <option name="totallyTimeSpent" value="84229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,7 +487,7 @@
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20539546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20784795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -780,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,23 +847,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
+        <state relative-caret-position="504">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="84">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/SwapNodesinPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ReverseNodesinkGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
