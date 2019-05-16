@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/DivideTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/SubstringwithConcatenationofAllWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/FindFirstandLastPositionofElementinSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,9 +23,12 @@
     <SUITE FILE_PATH="coverage/Algorithm$Turn.ic" NAME="Turn Coverage Results" MODIFIED="1556078746411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cn.com.self.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Algorithm$FindFirstandLastPositionofElementinSortedArray.ic" NAME="FindFirstandLastPositionofElementinSortedArray Coverage Results" MODIFIED="1557991179357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.com.self.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="256" />
+    <option name="myElementSize" value="195" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1279113076">
@@ -64,28 +65,31 @@
     <session id="1189562781">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1314" />
+          <entry key="java" value="2343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1314" />
+          <entry key="JAVA" value="2343" />
         </counts>
       </usages-collector>
     </session>
@@ -93,51 +97,60 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="14866" />
+          <entry key="java" value="12267" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14866" />
+          <entry key="JAVA" value="12267" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
+          <entry key="java" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="359">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/FindFirstandLastPositionofElementinSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -203,10 +216,8 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/RemoveDuplicatesfromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/ImplementstrStr.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/self/DivideTwoIntegers.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/self/SubstringwithConcatenationofAllWords.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/self/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/FindFirstandLastPositionofElementinSortedArray.java" />
       </list>
     </option>
   </component>
@@ -217,10 +228,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-47" />
-    <option name="y" value="-47" />
-    <option name="width" value="1977" />
-    <option name="height" value="1091" />
+    <option name="x" value="-46" />
+    <option name="y" value="-46" />
+    <option name="width" value="1976" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,14 +261,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557900031592" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557993608299" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,9 +286,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchinRotatedSortedArray">
-    <configuration name="DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.DivideTwoIntegers" />
+  <component name="RunManager" selected="Application.FindFirstandLastPositionofElementinSortedArray">
+    <configuration name="FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.FindFirstandLastPositionofElementinSortedArray" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -302,8 +313,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.NextPermutation" />
+    <configuration name="RemoveDuplicatesfromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.RemoveDuplicatesfromSortedArray" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -342,19 +353,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
       <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.ImplementstrStr" />
-      <item itemvalue="Application.DivideTwoIntegers" />
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.SearchinRotatedSortedArray" />
+      <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Application.SearchinRotatedSortedArray" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.DivideTwoIntegers" />
         <item itemvalue="Application.ImplementstrStr" />
         <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.RemoveDuplicatesfromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -385,9 +396,10 @@
       <workItem from="1557462029709" duration="3268000" />
       <workItem from="1557637960102" duration="1739000" />
       <workItem from="1557642733537" duration="4566000" />
-      <workItem from="1557724412733" duration="6405000" />
-      <workItem from="1557804375272" duration="4244000" />
-      <workItem from="1557896294211" duration="3168000" />
+      <workItem from="1557724412733" duration="6300000" />
+      <workItem from="1557834141710" duration="127000" />
+      <workItem from="1557910987825" duration="1370000" />
+      <workItem from="1557988582150" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -473,18 +485,11 @@
       <option name="project" value="LOCAL" />
       <updated>1557648483097</updated>
     </task>
-    <task id="LOCAL-00013" summary="new problem">
-      <created>1557731445133</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1557731445133</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98203000" />
+    <option name="totallyTimeSpent" value="96048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,10 +501,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2152054" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2191988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,16 +513,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33375958" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33248082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33200532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32992327" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286445" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32802126" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,7 +532,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.329859" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32955405" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +562,7 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>dividend / divisor</expression-string>
+        <expression-string>nums[mid - i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -589,6 +594,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/ListFromTailToHead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -828,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,9 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="66" column="67" lean-forward="true" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,41 +906,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/DivideTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/ImplementstrStr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/SubstringwithConcatenationofAllWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="988">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="359">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/FindFirstandLastPositionofElementinSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
         </state>
       </provider>
     </entry>

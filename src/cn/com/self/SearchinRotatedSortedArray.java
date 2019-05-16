@@ -19,23 +19,20 @@ package cn.com.self;
 public class SearchinRotatedSortedArray {
     public static void main(String[] args) {
         SearchinRotatedSortedArray tmp = new SearchinRotatedSortedArray();
-        int[] nums = {4, 5, 6, 7, 0, 1, 2};
-        int target = 0;
+        int[] nums = {5, 1, 3};
+        int target = 5;
         System.out.println(tmp.search(nums, target));
     }
 
     public int search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
-        if(target > nums[high] && target < nums[low]){
-            return -1;
-        }
         while(low < high){
             int mid = (low + high) / 2;
             if(nums[mid] > nums[high]){
                 low = mid + 1;
             }
             else{
-                high = mid - 1;
+                high = mid;
             }
         }
         int rotate = low;
