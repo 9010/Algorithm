@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/self/PermutationsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/RotateImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,22 +76,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3024" />
+          <entry key="java" value="4305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3024" />
+          <entry key="JAVA" value="4305" />
         </counts>
       </usages-collector>
     </session>
@@ -139,23 +139,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="39" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/PermutationsII.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/RotateImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="338">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -224,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/SearchinRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/FindFirstandLastPositionofElementinSortedArray.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/PermutationsII.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/RotateImage.java" />
       </list>
     </option>
   </component>
@@ -274,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559209253422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559271809679" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PermutationsII">
+  <component name="RunManager" selected="Application.RotateImage">
     <configuration name="FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.FindFirstandLastPositionofElementinSortedArray" />
       <module name="newCode" />
@@ -332,8 +321,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.RemoveElement" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.RotateImage" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -359,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.ImplementstrStr" />
       <item itemvalue="Application.SearchinRotatedSortedArray" />
       <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
       <item itemvalue="Application.PermutationsII" />
+      <item itemvalue="Application.RotateImage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateImage" />
         <item itemvalue="Application.PermutationsII" />
         <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Application.SearchinRotatedSortedArray" />
         <item itemvalue="Application.ImplementstrStr" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +397,7 @@
       <workItem from="1557988582150" duration="3901000" />
       <workItem from="1559094433742" duration="173000" />
       <workItem from="1559204537567" duration="4410000" />
-      <workItem from="1559263863521" duration="876000" />
+      <workItem from="1559263863521" duration="7346000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -501,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557993621214</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new problem">
+      <created>1559264937012</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559264937012</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101543000" />
+    <option name="totallyTimeSpent" value="108013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,12 +568,6 @@
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/com/self/PermutationsII.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -616,13 +606,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/swing/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -937,18 +920,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="39" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="780">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/PermutationsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="390">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
