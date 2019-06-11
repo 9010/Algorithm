@@ -10,9 +10,16 @@ import java.util.Arrays;
  * By listing and labeling all of the permutations in order, we get the following sequence for n = 3:
  *
  * 219.6.11 zx
- * 字典序排序，找到第k个字典序，具体算法，下面链接
+ * 字典序排序，找到第k个字典序，具体算法：
+ *      1、从右到左，找到第一个左边数字比右边数字小的，记录下标为a
+ *      2、从右到左，找到第一个比下标a大的数，记录下标为b
+ *      3、交换a，b的数
+ *      4、将下标a之后的数排序
+ * 原版下面链接
  * https://www.cnblogs.com/darklights/p/5285598.html
  * 一个个找时间复杂度太高，寻求别的方法
+ *
+ *
  */
 public class PermutationSequence {
     public static void main(String[] args) {
