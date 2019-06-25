@@ -1,9 +1,5 @@
 package cn.com.self;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
 /**
  * Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
  * In a UNIX-style file system, a period . refers to the current directory.
@@ -14,6 +10,20 @@ import java.util.Stack;
  * The last directory name (if it exists) must not end with a trailing /.
  * Also, the canonical path must be the shortest string representing the absolute path.
  *
+ * 2019.6.25 zx
+ * Discussion Answer：
+ *  First to first, there is no stack or deque used in my solution.
+ *  The only thing I did is just to transfer original string into char array.
+ *  My idea is:
+ *  Key: Use a counter to count how many times ".." appears before we handle a normal string of part of the path.
+ *  1、go through the char array from end to start
+ *  2、ignore all '/' characters
+ *  3、get string between '/'
+ *  4、handle this string in 4 branches:
+ *      4.a if it is empty or equals to ".", do nothing
+ *      4.b if it is equals to "..", counter++
+ *      4.c if the counter is greater than 0, then counter--
+ *      4.d else ( counter == 0) do concatenation of result with current part of path.
  */
 public class SimplifyPath {
     public static void main(String[] args) {
