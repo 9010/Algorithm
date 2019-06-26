@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/self/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/SortColors.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,42 +155,48 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14960" />
+          <entry key="java" value="15780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14960" />
+          <entry key="JAVA" value="15780" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Searcha2DMatrix.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Subsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/self/SortColors.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/self/Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="385">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,8 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/self/RectCover.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/self/NumberOf1.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/Power.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/reOrderArray.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/ListNode.java" />
@@ -275,6 +280,8 @@
         <option value="$PROJECT_DIR$/src/cn/com/self/SetMatrixZeroes.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/Searcha2DMatrix.java" />
         <option value="$PROJECT_DIR$/src/cn/com/self/SortColors.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/Combinations.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/self/Subsets.java" />
       </list>
     </option>
   </component>
@@ -325,7 +332,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561528878005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561532496333" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -343,9 +350,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortColors">
-    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.ClimbingStairs" />
+  <component name="RunManager" selected="Application.Subsets">
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.Combinations" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -383,19 +390,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.SimplifyPath" />
-      <module name="newCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.self.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.SortColors" />
       <module name="newCode" />
@@ -409,20 +403,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.Subsets" />
+      <module name="newCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ClimbingStairs" />
-      <item itemvalue="Application.SimplifyPath" />
       <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.Searcha2DMatrix" />
       <item itemvalue="Application.SortColors" />
+      <item itemvalue="Application.Combinations" />
+      <item itemvalue="Application.Subsets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.Combinations" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.Searcha2DMatrix" />
         <item itemvalue="Application.SetMatrixZeroes" />
-        <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.ClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +477,7 @@
       <workItem from="1560992179520" duration="13101000" />
       <workItem from="1561424490470" duration="13060000" />
       <workItem from="1561453023838" duration="3862000" />
-      <workItem from="1561510864924" duration="9124000" />
+      <workItem from="1561510864924" duration="11396000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -668,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561522445763</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="new problem">
+      <created>1561528884135</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1561528884135</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176722000" />
+    <option name="totallyTimeSpent" value="178994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +710,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33116177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -777,27 +791,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/IntegerToRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/LetterCombinationsOfPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -931,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-206">
@@ -1026,6 +1012,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="308" column="26" selection-start-line="308" selection-start-column="26" selection-end-line="308" selection-end-column="26" />
+          <folding>
+            <element signature="e#10902#10903#0" expanded="true" />
+            <element signature="e#10948#10949#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,6 +1113,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/self/Searcha2DMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1130,10 +1141,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/self/SortColors.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Combinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="385">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/self/Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
