@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daf48fc-74e1-4a33-8901-e596d2521ca7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/self/ReverseLinkedListII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/self/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/self/DecodeWays.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.ReverseLinkedListII">
     <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.self.DecodeWays" />
       <module name="newCode" />
@@ -103,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.self.PermutationSequence" />
+    <configuration name="ReverseLinkedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.ReverseLinkedListII" />
       <module name="newCode" />
       <extension name="coverage">
         <pattern>
@@ -143,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PermutationSequence" />
       <item itemvalue="Application.GrayCode" />
       <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.DecodeWays" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.ReverseLinkedListII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedListII" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.DecodeWays" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.GrayCode" />
-        <item itemvalue="Application.PermutationSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +200,7 @@
       <workItem from="1560240257309" duration="5207000" />
       <workItem from="1562114730304" duration="361000" />
       <workItem from="1564622638853" duration="19164000" />
-      <workItem from="1564710839255" duration="2581000" />
+      <workItem from="1564710839255" duration="4887000" />
     </task>
     <task id="LOCAL-00001" summary="new problem">
       <created>1556082689371</created>
@@ -363,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564655376244</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new problem">
+      <created>1564714128982</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564714128982</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
