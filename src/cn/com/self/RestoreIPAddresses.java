@@ -5,6 +5,11 @@ import java.util.List;
 
 /**
  * Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+ *
+ * 2019.8.5 zx
+ * 一串字符串按照IP地址格式进行分段，要求求出所有可能的分段
+ * 求所有可能第一反应DFS，这里复杂在要求数字不能小于0,不能大于255，同时还有一位数、两位数和三位数的区别
+ * 还是一个个试，不符合条件就回退
  */
 public class RestoreIPAddresses {
     public static void main(String[] args) {
