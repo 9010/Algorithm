@@ -8,6 +8,12 @@ import java.util.Map;
  * 根据中序和后序，确定二叉树
  *
  * 2019.8.13 zx
+ * 前序遍历的第一个结点必定是根结点，后序遍历的最后一个结点一定是根结点，根据前序遍历或者后续遍历很容易就能找到根结点。
+ * 如果树中不存在重复结点，那么在中序遍历中，根结点所在位置的左边就是左子树的中序遍历结果，右边就是右子树的中序遍历结果。
+ * 对于inorder = {9,3,15,20,7} 与 postorder = {9,15,7,20,3} 而言
+ * postorder最后一位3就是根节点，那么在inorder中3的左右分别的左子树和右子树
+ * 同时，也对应了postorder中，3的前3位为右子树，右子树再前1位为左子树
+ * 一步步分解
  */
 public class ConstructBinaryTreefromInorderandPostorderTraversal {
     public static void main(String[] args) {
