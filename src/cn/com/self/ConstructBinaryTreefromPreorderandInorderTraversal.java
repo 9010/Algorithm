@@ -1,13 +1,15 @@
 package cn.com.self;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
  * Given preorder and inorder traversal of a tree, construct the binary tree.
  * 根据前序和中序给出二叉树
+ *
+ * 2019.8.12 zx
+ * 自己写的，时间和空间复杂度双低
+ * buildTree2是别人写的，但是不是很懂
  */
 public class ConstructBinaryTreefromPreorderandInorderTraversal {
     public static void main(String[] args) {
