@@ -1,14 +1,14 @@
 package cn.com.self;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * Given a binary tree, determine if it is height-balanced.
  *
  * For this problem, a height-balanced binary tree is defined as:
  *
  * a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+ *
+ * 2019.8.14 zx
+ * 对于 “ 任意 ” 一个节点，左右子树深度不能相差大于 1
  */
 public class BalancedBinaryTree {
     public static void main(String[] args) {

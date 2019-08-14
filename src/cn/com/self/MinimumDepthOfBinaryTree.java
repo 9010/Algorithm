@@ -8,14 +8,12 @@ import java.util.Queue;
  * Given a binary tree, find its minimum depth.
  * The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
  *
- * 二叉树层次遍历，找到第一个叶子节点
+ * 二叉树层次遍历，找到第一个叶子节点，其层数就是最小层数
  *
  * 2019.5.6 zx
  */
 
 public class MinimumDepthOfBinaryTree {
-    int min = 0;
-
     public static void main(String[] args) {
         TreeNode tree = new TreeNode(3);
         tree.left = new TreeNode(9);
@@ -24,11 +22,10 @@ public class MinimumDepthOfBinaryTree {
         tree.right.left = new TreeNode(15);
 
         MinimumDepthOfBinaryTree test = new MinimumDepthOfBinaryTree();
-        int min = test.run(tree);
-        System.out.println(min);
+        System.out.println(test.minDepth(tree));
     }
 
-    public int run(TreeNode root) {
+    public int minDepth(TreeNode root) {
         if (root == null){
             return 0;
         }
@@ -57,12 +54,4 @@ public class MinimumDepthOfBinaryTree {
         }
         return deep.get(deep.size() - 1);
     }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
-
 }
