@@ -11,7 +11,7 @@ import java.util.List;
  *
  * 2019.8.14 zx
  * 先把ListNode转换成ArrayList，在和数组一样操作
- * 时间复杂度略低，空间复杂度较高
+ * 时间复杂度略差，空间复杂度较好
  */
 public class ConvertSortedListtoBinarySearchTree {
     public static void main(String[] args) {
