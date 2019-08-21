@@ -14,6 +14,13 @@ import java.util.List;
  * 时间复杂度略差，空间复杂度较好
  */
 public class ConvertSortedListtoBinarySearchTree {
+    static class ListNode {
+        int val;
+        ListNode next = null;
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
     public static void main(String[] args) {
         ListNode node = new ListNode(-10);
         ListNode tree = node;
