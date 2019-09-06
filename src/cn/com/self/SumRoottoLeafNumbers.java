@@ -2,6 +2,7 @@ package cn.com.self;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
@@ -34,5 +35,26 @@ public class SumRoottoLeafNumbers {
     public int sumNumbers(TreeNode root) {
         if(root == null) return 0;
 
+        int sum = DFS(root, 0, new StringBuilder());
+
+        return sum;
+    }
+
+    private int DFS(TreeNode root, int sum, StringBuilder tmpNum){
+        tmpNum.append(root.val);
+        if(root.right == null && root.left == null){
+            int num = Integer.valueOf(tmpNum.toString());
+            sum = sum + num;
+            return sum;
+        }
+        if(root.right != null){
+            sum = DFS(root.right, sum, tmpNum);
+            tmpNum.deleteCharAt(tmpNum.length() - 1);
+        }
+        if(root.left != null){
+            sum = DFS(root.left, sum, tmpNum);
+            tmpNum.deleteCharAt(tmpNum.length() - 1);
+        }
+        return sum;
     }
 }
