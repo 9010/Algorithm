@@ -20,6 +20,8 @@ import java.util.Stack;
  * The root-to-leaf path 1->3 represents the number 13.
  * Therefore, sum = 12 + 13 = 25.
  *
+ * 2019.9.6 zx
+ * DFS求每一次到叶子结点的数字，相加
  */
 public class SumRoottoLeafNumbers {
     public static void main(String[] args) {
