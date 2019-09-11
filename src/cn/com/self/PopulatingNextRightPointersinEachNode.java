@@ -15,27 +15,27 @@ import java.util.Queue;
  */
 public class PopulatingNextRightPointersinEachNode {
     public static void main(String[] args) {
-        Node root = new Node();
+        NormalNode root = new NormalNode();
         root.val = 1;
-        root.left = new Node();
+        root.left = new NormalNode();
         root.left.val = 2;
-        root.right = new Node();
+        root.right = new NormalNode();
         root.right.val = 3;
         PopulatingNextRightPointersinEachNode tmp = new PopulatingNextRightPointersinEachNode();
         tmp.connect(root);
 
     }
-    public Node connect(Node root) {
+    public NormalNode connect(NormalNode root) {
         if(root == null) return null;
-        Queue<Node> tmp = new LinkedList<>();
+        Queue<NormalNode> tmp = new LinkedList<>();
         tmp.offer(root);
         while(!tmp.isEmpty()){
             int num = tmp.size();
             for(int i = 0; i < num; i++){
-                Node tmpNode = tmp.poll();
-                tmpNode.next = i == num - 1 ? null : tmp.peek();
-                if(tmpNode.left != null) tmp.offer(tmpNode.left);
-                if(tmpNode.right != null) tmp.offer(tmpNode.right);
+                NormalNode tmpNormalNode = tmp.poll();
+                tmpNormalNode.next = i == num - 1 ? null : tmp.peek();
+                if(tmpNormalNode.left != null) tmp.offer(tmpNormalNode.left);
+                if(tmpNormalNode.right != null) tmp.offer(tmpNormalNode.right);
             }
         }
         return root;
