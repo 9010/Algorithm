@@ -17,7 +17,8 @@ import java.util.List;
  * The normal dfs backtracking will need to check each substring for palindrome
  * but a dp array can be used to record the possible break for palindrome before we start recursion.
  *
- * Edit:
+ * 2019.9.11 zx
+ *
  * Sharing my thought process:
  * First, I ask myself that how to check if a string is palindrome or not, usually a two point solution scanning from front and back.
  * Here if you want to get all the possible palindrome partition,
