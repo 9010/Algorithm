@@ -24,7 +24,7 @@ import java.util.Arrays;
  */
 public class Candy {
     public static void main(String[] args) {
-        int[] ratings = {0,1,2,3,2,1};
+        int[] ratings = {0,1,2,3,2};
         Candy tmp = new Candy();
         System.out.println(tmp.candy(ratings));
     }
