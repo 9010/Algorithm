@@ -25,7 +25,11 @@ import java.util.List;
  * 即：nCharsAvail = s.length - j时，匹配到scorePotential长度的单词
  * 此时dp[8] = 5，并跳出之后的wordDict中的循环
  * 继续，后一个字符为p，此时nCharsAvail = 6，长度大于wordDict中的单词，但是suffixScore都会查询到0，那么此时scorePotential != nCharsAvail
- * 直到pen全部输入
+ * 直到pen全部输入，此时nCharsAvail = 8，
+ * suffixScore = dp[j + word.length()] 即 dp[5 + 3] = dp[8] = 5
+ * 此时scorePotential = 5 + 3 = 8 = nCharsAvail，进入isMatchStartingAt函数比较字符
+ * 完全符合，存入dp[5] = 8，继续下一个字符，直到结束
+ * 最后判断dp[0]是否等于s.length，相等则为true，否则false
  *
  */
 public class WordBreak {
